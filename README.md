@@ -1,5 +1,10 @@
 # Welcome to your Lovable project
 
+![License](https://img.shields.io/github/license/jayaswinjay-web/jay-pos?style=flat&color=1a8a7a)
+![Last Commit](https://img.shields.io/github/last-commit/jayaswinjay-web/jay-pos?style=flat&color=1a8a7a)
+![CI](https://github.com/jayaswinjay-web/jay-pos/actions/workflows/ci.yml/badge.svg)
+![GitHub Repo](https://img.shields.io/github/repo-size/jayaswinjay-web/jay-pos?style=flat&color=1a8a7a)
+
 ## Project info
 
 **URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
