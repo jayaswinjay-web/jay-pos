@@ -1,78 +1,99 @@
-# Welcome to your Lovable project
+<div align="center">
+  <img src="https://raw.githubusercontent.com/jayaswinjay-web/shared-assets/main/screenshots/jay-pos-demo.svg" width="100%" alt="JAY POS Screenshot">
+</div>
 
-![License](https://img.shields.io/github/license/jayaswinjay-web/jay-pos?style=flat&color=1a8a7a)
-![Last Commit](https://img.shields.io/github/last-commit/jayaswinjay-web/jay-pos?style=flat&color=1a8a7a)
-![CI](https://github.com/jayaswinjay-web/jay-pos/actions/workflows/ci.yml/badge.svg)
-![GitHub Repo](https://img.shields.io/github/repo-size/jayaswinjay-web/jay-pos?style=flat&color=1a8a7a)
+<br>
 
-## Project info
+<div align="center">
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+[![License](https://img.shields.io/github/license/jayaswinjay-web/jay-pos?style=flat&color=1a8a7a)](LICENSE)
+[![Last Commit](https://img.shields.io/github/last-commit/jayaswinjay-web/jay-pos?style=flat&color=1a8a7a)](https://github.com/jayaswinjay-web/jay-pos/commits)
+[![CI](https://github.com/jayaswinjay-web/jay-pos/actions/workflows/ci.yml/badge.svg)](https://github.com/jayaswinjay-web/jay-pos/actions)
+[![Repo Size](https://img.shields.io/github/repo-size/jayaswinjay-web/jay-pos?style=flat&color=1a8a7a)](https://github.com/jayaswinjay-web/jay-pos)
+[![Stars](https://img.shields.io/github/stars/jayaswinjay-web/jay-pos?style=social)](https://github.com/jayaswinjay-web/jay-pos)
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+### ⭐ Support This Project — [Star on GitHub](https://github.com/jayaswinjay-web/jay-pos) ⭐
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+</div>
 
-Changes made via Lovable will be committed automatically to this repo.
+# 🏪 JAY POS
 
-**Use your preferred IDE**
+Enterprise Point-of-Sale system built with React, TypeScript, and Supabase. Designed for retail businesses of all sizes — from small shops to multi-store chains.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Features
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- **Billing & Checkout** — Fast product search, barcode scanning, and split payments
+- **Inventory Management** — Real-time stock tracking, low-stock alerts, purchase orders
+- **Customer Management** — Store customer profiles, purchase history, and loyalty points
+- **Sales Reports** — Daily, weekly, and monthly sales analytics with export options
+- **Multi-store Support** — Manage multiple store locations from a single dashboard
+- **Offline Mode** — Continue billing even without internet, syncs when reconnected
+- **Role-based Access** — Admin, manager, cashier roles with granular permissions
+- **Invoice Printing** — Thermal printer and A4 receipt/invoice support
 
-Follow these steps:
+## Quick Start
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### Prerequisites
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+- Node.js 18+
+- npm or bun
 
-# Step 3: Install the necessary dependencies.
-npm i
+### Installation
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
+npm install
+```
+
+### Development
+
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+### Production Build
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```bash
+npm run build
+```
 
-**Use GitHub Codespaces**
+## Tech Stack
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+| Layer | Technology |
+|-------|-----------|
+| Frontend | React + TypeScript |
+| Styling | Tailwind CSS + shadcn/ui |
+| Backend | Supabase (PostgreSQL) |
+| Build | Vite |
+| Package Manager | bun |
 
-## What technologies are used for this project?
+## Project Structure
 
-This project is built with:
+```
+jay-pos/
+├── src/
+│   ├── components/    # Reusable UI components
+│   ├── pages/         # Route pages
+│   ├── hooks/         # Custom React hooks
+│   ├── lib/           # Utility functions
+│   └── types/         # TypeScript type definitions
+├── supabase/          # Supabase migrations & config
+├── public/            # Static assets
+└── package.json
+```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## About JAY TECH SOLUTIONS
 
-## How can I deploy this project?
+JAY POS is part of the [JAY TECH SOLUTIONS](https://jaytechsoln.in) product suite — a collection of business software products serving 50,000+ users across India.
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+## Show Your Support
 
-## Can I connect a custom domain to my Lovable project?
+- ⭐ **Star this repo** — helps others discover it
+- 🐛 **Report issues** — I respond within 24 hours
+- 📬 **Share feedback** — contact@jaytechsoln.in
+- ☕ **Buy me a coffee** — [Sponsor](https://github.com/sponsors/jayaswinjay-web)
 
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Made with ❤️ by [Aswin Jay](https://github.com/Aswinajay) — part of [JAY TECH SOLUTIONS](https://jaytechsoln.in)
